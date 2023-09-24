@@ -53,7 +53,7 @@ export default function Hero() {
 
       {/* Image */}
       <img
-        src="/landing.svg"
+        src="/landing.png"
         className="w-[200px] md:w-[300px] lg:w-[325px] 2xl:w-[375px]"
         alt="Ibrahim, Attorney at Clifford Chance, King's College London"
       />
@@ -63,55 +63,3 @@ export default function Hero() {
     </section>
   );
 }
-
-// #E9E7F6
-
-// import { alegreya } from "../layout";
-// import Image from "next/image";
-
-// export default function Hero() {
-//   return (
-//     <section
-//       className={
-//         alegreya.className +
-//         " flex justify-center items-center h-[calc(100vh-96px)] min-h-[600px] gap-y-10"
-//       }
-//     >
-//       <div className="flex gap-x-28 items-center flex-row-reverse scale-125">
-//         {/* Text */}
-//         <div className="space-y-2">
-//           <h1 className="text-7xl max-w-[800px]: font-bold">
-//             A MARRIAGE,
-//             <br /> NOT A DATING, APP
-//           </h1>
-//           <h2 className="text-2xl">
-//             ...for Muslim professionals{" "}
-//             <b className="text-[#c5b385]">serious</b> about marriage.
-//           </h2>
-
-//           {/* <h1 className="text-8xl font-bold">Marry, not date.</h1>
-//           <h2 className="text-2xl">
-//             A matrimony app for Muslim professionals{" "}
-//             <b className="text-[#c5b385]">serious</b> about marriage.
-//           </h2> */}
-//         </div>
-
-//         {/* Image */}
-//         <div>
-//           <Image
-//             src={"/landing.svg"}
-//             alt={"Muslim couple on a picnic"}
-//             width={50}
-//             height={50}
-//             layout="responsive"
-//           />
-//         </div>
-//       </div>
-
-//       {/* Background div */}
-//       <div className="bg-[#FBFBFB] h-screen min-h-[600px] w-screen absolute top-0 -z-10"></div>
-//     </section>
-//   );
-// }
-
-// // #E9E7F6
