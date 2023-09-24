@@ -2,11 +2,7 @@ import React from "react";
 import { alegreya } from "../layout";
 import Link from "next/link";
 
-export default function Navbar({
-  showCTAButton = true,
-}: {
-  showCTAButton?: boolean;
-}) {
+export default function Navbar() {
   return (
     <nav className="flex justify-between h-24 items-center">
       {/* Logo */}
