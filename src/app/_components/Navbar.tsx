@@ -15,16 +15,13 @@ export default function Navbar({
       </div>
 
       {/* Links */}
-      <div className="flex gap-x-1ƒ">
-        {/* #9C8D66 */}
-        {showCTAButton && (
-          <Link
-            href="/access"
-            className="bg-gold px-7 py-2 font-bold rounded-full"
-          >
-            Get Early Access 🎁
-          </Link>
-        )}
+      <div className="flex gap-x-1">
+        <Link
+          href="/access"
+          className="hidden md:block  bg-gold px-7 py-2 font-bold rounded-full"
+        >
+          Get Early Access 🎁
+        </Link>
       </div>
     </nav>
   );
