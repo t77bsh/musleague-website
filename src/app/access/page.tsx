@@ -33,7 +33,7 @@ function page() {
       >
         <p>
           Thank you to all <Count /> of you that have joined us already! Due to
-          high demand, we've had to cap the launch at 5,000 users, but we will
+          high demand, we&apos;ve had to cap the launch at 5,000 users, but we will
           be giving each one of you VIP status and free lifetime premium
           features!
         </p>
