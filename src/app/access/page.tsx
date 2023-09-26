@@ -28,26 +28,16 @@ function page() {
       {/* Copy */}
       <div
         className={
-          inter.className +
-          " text-center text-sm sm:text-base  font-semibold space-y-3"
+          inter.className + " text-center text-sm sm:text-base  space-y-3"
         }
       >
         <p>
-          We’re thrilled and grateful for the enthusiastic reception we’ve had!
+          Thank you to all <Count /> of you that have joined us already! Due to
+          high demand, we've had to cap the launch at 5,000 users, but we will
+          be giving each one of you VIP status and free lifetime premium
+          features!
         </p>
-        <p>
-          Thank you to all <Count /> of you that joined us.
-        </p>
-        <p>
-          Due to rapid demand, we’ve had to make the tough decision to limit the
-          launch to only the first 10,000 users.
-        </p>
-        <p>
-          We’ll be giving the first 10,000 users VIP status and free lifetime
-          access to any premium features we launch.
-        </p>
-        <p>Secure your spot on the waitlist and be among the first to join. </p>
-        <p>
+        <p className="font-semibold">
           <RemainingCount /> spots remaining.{" "}
         </p>
       </div>

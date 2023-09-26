@@ -5,6 +5,6 @@ import { CountContext } from "@/context/WaitlistCountContext";
 export default function Count() {
   const { count } = useContext(CountContext);
 
-  if (count) return 10000 - count;
+  if (count) return 5000 - count;
   return "____";
 }
