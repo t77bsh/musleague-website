@@ -1,13 +1,15 @@
-import Hero from "./_components/Hero";
+import Headings from "./_components/Headings";
 import Navbar from "./_components/Navbar";
-import Copy1 from "./_components/Copy1";
-import Copy2 from "./_components/Copy2";
+import CallToAction from "./_components/CallToAction";
+import SocialProof from "./_components/SocialProof";
 
 export default function Home() {
   return (
     <>
       <Navbar />
-      <Hero />
+      <Headings />
+      <CallToAction />
+      <SocialProof />
     </>
   );
 }

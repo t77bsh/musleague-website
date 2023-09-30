@@ -1,0 +1,28 @@
+import AppStoresTags from "./AppStoresTags";
+import Form from "./Form";
+import Image from "next/image";
+export default function CallToAction() {
+  return (
+    <section
+      id="call-to-action"
+      className="my-[7vh] flex flex-col gap-y-14 items-center md:items-start md:flex-row-reverse md:gap-x-12"
+    >
+      <div className="w-full  flex flex-col gap-y-12 md:mt-20">
+        <div className="space-y-3">
+          <p className="font-medium text-sm md:text-xl lg:text-2xl">
+            You aced your education & career — why settle for less in love?
+          </p>
+
+          <Form />
+        </div>
+        <AppStoresTags />
+      </div>
+
+      <img
+        src="/landing.png"
+        className="w-[250px] md:w-[200px] xl:w-[225px]"
+        alt="Ibrahim, Attorney at Clifford Chance, King's College London"
+      />
+    </section>
+  );
+}
