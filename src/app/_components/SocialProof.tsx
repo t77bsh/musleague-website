@@ -63,7 +63,7 @@ export default function SocialProof() {
   if (!count) return null;
 
   return (
-    <div className="bg-white flex gap-x-3 rounded-full w-[300px] mx-auto md:absolute shadow md:right-10 md:bottom-10 items-center pl-6 py-2">
+    <div className="bg-white flex gap-x-3 rounded-full w-[300px] mx-auto md:absolute shadow md:right-10 md:bottom-10 items-center pl-6 py-2 mb-4">
       {/* Spinner */}
       <BounceLoader color="#1897F4" size={20} />
 

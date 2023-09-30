@@ -44,8 +44,8 @@ function ThankYouPage() {
           <p>
             We are humbled and thrilled to have you on board. Your trust in us
             is a step closer to creating a cherished community of Muslim
-            professionals finding love. You are on the waitlist! We&apos;ll drop you
-            a text message with the link to the mobile app when we launch!
+            professionals finding love. You are on the waitlist! We&apos;ll let
+            you know when the mobile app launches!
           </p>
           <p className="text-xl font-semibold">- ❤️ The Musleague Team</p>
         </div>
