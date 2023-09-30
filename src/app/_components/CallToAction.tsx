@@ -1,5 +1,6 @@
 import AppStoresTags from "./AppStoresTags";
 import Form from "./Form";
+import { alegreya } from "../layout";
 import Image from "next/image";
 export default function CallToAction() {
   return (
@@ -9,8 +10,8 @@ export default function CallToAction() {
     >
       <div className="w-full  flex flex-col gap-y-12 md:mt-20">
         <div className="space-y-3">
-          <p className="font-medium text-sm md:text-xl lg:text-2xl">
-            You aced your education & career — why settle for less in love?
+          <p className={"font-medium text-sm text-gray-800 md:text-xl lg:text-2xl"}>
+            You nailed your education & career — why settle for less in love?
           </p>
 
           <Form />
