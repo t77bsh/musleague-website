@@ -20,7 +20,9 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={
-          inter.className + " max-w-[1800px] mx-6 md:mx-12 lg:mx-24 bg-[#FEFAEC]"
+          // inter.className + " max-w-[1800px] mx-6 md:mx-12 lg:mx-24 bg-[#FEFAEC]"
+          inter.className + " max-w-[1800px] mx-auto px-6 bg-[#FEFAEC]"
+
         }
       >
         <CountProvider>{children}</CountProvider>
