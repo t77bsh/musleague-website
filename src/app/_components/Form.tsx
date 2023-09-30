@@ -61,24 +61,11 @@ export default function Form() {
         placeholder="LinkedIn profile link"
         className="rounded-full px-4 h-12 md:h-16 md:text-lg w-full shadow"
       />
-      {/* <button
+      <button
         type="submit"
         className="font-medium hover:scale-105 rounded-full whitespace-nowrap shadow bg-gold text-white w-full px-2 h-12 md:static md:h-[70px] md:text-lg lg:absolute lg:-right-1 lg:-bottom-1 lg:w-5/12 lg:font-bold xl:text-xl"
       >
         Free lifetime access -&gt;
-      </button> */}
-
-      <button
-        type="submit"
-        className="whitespace-nowrap w-full h-12 md:static md:h-[70px] md:text-lg lg:absolute lg:-right-1 lg:-bottom-1 lg:w-5/12 lg:font-bold xl:text-xl relative bg-gold inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out border-2 border-gold rounded-full shadow-md group"
-      >
-        <span className="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-gold group-hover:translate-x-0 ease">
-          --&gt;
-        </span>
-        <span className="absolute flex items-center justify-center w-full h-full text-white transition-all duration-300 transform group-hover:translate-x-full ease">
-          Free Lifetime Access -&gt;
-        </span>
-        <span className="relative invisible">Free Lifetime Access</span>
       </button>
     </form>
   );
