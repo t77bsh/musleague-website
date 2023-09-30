@@ -33,8 +33,8 @@ function page() {
       >
         <p>
           Thank you to all <Count /> of you that have joined us already! Due to
-          high demand, we&apos;ve had to cap the launch at 5,000 users, but we will
-          be giving each one of you VIP status and free lifetime premium
+          high demand, we&apos;ve had to cap the launch at 5,000 users, but we
+          will be giving each one of you VIP status and free lifetime premium
           features!
         </p>
         <p className="font-semibold">
