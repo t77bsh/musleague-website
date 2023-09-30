@@ -21,7 +21,7 @@ export default function RootLayout({
       <body
         className={
           // inter.className + " max-w-[1800px] mx-6 md:mx-12 lg:mx-24 bg-[#FEFAEC]"
-          inter.className + " max-w-[1800px] mx-auto px-6 bg-[#FEFAEC]"
+          inter.className + " max-w-[1800px] mx-auto px-6 md:px-12 lg:px-32 bg-[#FEFAEC]"
 
         }
       >
