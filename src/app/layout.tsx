@@ -2,7 +2,6 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Alegreya, Inter } from "next/font/google";
 import { CountProvider } from "@/context/WaitlistCountContext";
-import mesh from "../../public/bg.svg";
 
 export const alegreya = Alegreya({ subsets: ["latin"], style: "italic" });
 export const inter = Inter({ subsets: ["latin"] });
