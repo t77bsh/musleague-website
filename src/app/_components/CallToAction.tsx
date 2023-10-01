@@ -10,7 +10,7 @@ export default function CallToAction() {
     >
       <div className="w-full  flex flex-col gap-y-12 md:mt-20">
         <div className="space-y-3">
-          <p className={"font-medium text-sm text-gray-800 md:text-xl lg:text-2xl"}>
+          <p className={alegreya.className + " font-medium text-lg text-gray-800 md:text-2xl lg:text-3xl"}>
             You nailed your education & career — why settle for less in love?
           </p>
 
