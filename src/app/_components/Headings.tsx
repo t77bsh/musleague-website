@@ -2,7 +2,7 @@ import { alegreya } from "../layout";
 
 export default function Headings() {
   return (
-    <section id="headings" className={alegreya.className + " " + "mt-[4vh]"}>
+    <section id="headings" className={alegreya.className + " " + "mt-[7%]"}>
       {/* Headlines */}
       <div className="flex flex-col gap-y-4 font-semibold">
         <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl">
